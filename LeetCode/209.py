@@ -27,8 +27,8 @@ class Solution:
         return res
 
 
-
-nums = [2, 3, 1, 2, 4, 3]
-target = 7
-a = Solution()
-print(a.minSubArrayLen(nums, target))
+if __name__ == '__main__':
+    nums = [2, 3, 1, 2, 4, 3]
+    target = 7
+    a = Solution()
+    print(a.minSubArrayLen(nums, target))
