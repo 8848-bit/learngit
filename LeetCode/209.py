@@ -12,9 +12,8 @@ LeetCode 209 长度最小的子数组
 class Solution:
     def minSubArrayLen(self, nums: list[int], target: int) -> int:
         n = len(nums)
-        #if (n < 1 or sum(nums) < target): 
-        #    return 0
-        sum = 0
+        if (n < 1 or sum(nums) < target): 
+            return 0
         i = 0
         x = 0
         res = n + 1  # 最大的窗口不会超过自身长度
